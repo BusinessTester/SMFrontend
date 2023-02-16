@@ -47,7 +47,7 @@ let value = JSON.parse(data)
         <td className='text fw-bold h6'>{value.id}</td>
         <td className='text fw-bold h6'>A-</td>
         {/* <td><Link to={value.preview}>preview link</Link>  </td> */}
-        <td><button className='button bg-warning fw-bold h6'><a className='text text-black' target='_blank' rel='noreferer' href={value.preview}>preview link</a></button>   </td>
+        <td><button className='button bg-warning fw-bold h6'><a className='text text-black' target='_blank' rel='noreferrer' href={value.preview}>preview link</a></button>   </td>
         <td className='text-dark fw-bold h6'>{value.contact}</td>
 
       </tr>
